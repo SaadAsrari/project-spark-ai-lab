@@ -7,6 +7,7 @@ import ProjectGenerator from "@/components/ProjectGenerator";
 import WorkflowSteps from "@/components/WorkflowSteps";
 import Pricing from "@/components/Pricing";
 import Footer from "@/components/Footer";
+import ChatBox from "@/components/ChatBox";
 
 const Index = () => {
   return (
@@ -20,6 +21,7 @@ const Index = () => {
         <Pricing />
       </main>
       <Footer />
+      <ChatBox />
     </div>
   );
 };
